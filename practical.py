@@ -7,8 +7,10 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
-arr = [64, 25, 12, 22, 11]
-print("Original array:", arr)
 
-selection_sort(arr)
-print("Sorted array:", arr)
+if __name__ == "__main__":
+    arr = [64, 25, 12, 22, 11]
+    print("Original array:", arr)
+
+    selection_sort(arr)
+    print("Sorted array:", arr)
