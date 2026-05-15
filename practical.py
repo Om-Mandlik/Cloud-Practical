@@ -1,4 +1,8 @@
 while True:
+    print("\n" * 2)
+    print("====================================")
+    print("        🤖 PY CHAT BOT APP        ")
+    print("====================================")
     msg = input("You: ").lower()
 
     if "hello" in msg:
